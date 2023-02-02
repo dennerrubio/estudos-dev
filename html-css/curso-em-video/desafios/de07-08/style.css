@@ -1,0 +1,17 @@
+h1, p {
+    text-align: center;
+}
+
+.fundo-amarelo {
+    background-color: rgb(243, 230, 155);
+}
+.amarelo {
+    color: rgb(136, 120, 30);
+}
+
+.fundo-vermelho {
+    background-color: rgb(243, 155, 155);
+}
+.vermelho {
+    color: rgb(136, 30, 30);
+}

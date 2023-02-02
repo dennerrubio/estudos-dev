@@ -6,6 +6,9 @@ repositório pessoal para estudos de programação
 - emojipedia.org (para pegar código de emoticons)
 - favicon.io (para transformar o png em .ico)
 
+## softwares interessantes:
+- handbrake.fr (conversor de video gratuito) 
+
 ## lista de types="" bastante usados para links de downloads
 - application/zip
 - application/pdf

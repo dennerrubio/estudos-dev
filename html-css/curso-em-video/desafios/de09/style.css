@@ -1,0 +1,32 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, p {
+    color: white;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+  }
+
+.borda {
+    border-radius: 15px;
+}
+
+a {
+    color: white;
+  }
+
+a:hover {
+    color: rgb(158, 155, 170);
+  }
+
+a:visited {
+    color: white;
+  }

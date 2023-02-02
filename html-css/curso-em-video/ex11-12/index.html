@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX11-12</title>
+</head>
+<body>
+  <!--EX11-->
+  <div>
+    <h1>Imagens com tamanhos flexíveis - EX11 - 02/02/23</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, facere ipsa eius commodi rerum tenetur ipsam nihil nobis ullam id similique ea, veniam aliquam dolores. Eaque, repellat adipisci? Eligendi, asperiores.</p>
+    <picture>
+      <source media="(max-width: 650px)" srcset="imagens/P-300x300.png" type="image/png">
+      <source media="(max-width: 1050px)" srcset="imagens/M-600x600.png" type="image/png">
+      <img src="imagens/G-1000x1000.png" alt="Imagem">
+    </picture>
+    <h1>Player de audio</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem praesentium consequatur ex ab officia consequuntur distinctio, voluptatum quo rerum quam repellendus pariatur maiores asperiores in suscipit culpa quaerat hic rem.</p>
+    <audio src="midia/sons.mp3" controls></audio>
+    <hr>
+    <h2>teste 2</h2>
+    <audio preload="metadata" controls>
+      <source src="midia/sons.mp3" type="audio/mpeg">
+    </audio>
+    <hr>
+  </div>
+  <!--EX12-->
+  <div>
+    <h1>Videos Internos e Externos - EX12 - 02/02/23</h1>
+    <h2>Video interno no site</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo repellat inventore maiores et libero quas harum, nulla ipsam aliquam quibusdam laborum nemo impedit, nisi deserunt eaque aliquid nobis ut asperiores?</p>
+    <video src="midia/dog-video.mp4" width="560" controls>Não foi possível carregar o vídeo.</video>
+    <h2>Video externo no site</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam id, quo sit magnam maxime in recusandae reprehenderit! Eos, tempore qui. Maiores accusamus dolores optio saepe odio, harum sint assumenda temporibus.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D-UmfqFjpl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
