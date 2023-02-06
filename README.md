@@ -6,7 +6,12 @@ repositório pessoal para estudos de programação
 - favicon.io (para transformar o png em .ico)
 
 ## softwares interessantes:
-- handbrake.fr (conversor de video gratuito) 
+- handbrake.fr (conversor de video gratuito)
+
+## sites para paletas de cores
+- coolors.co
+- paletton.com
+- color.adobe.com
 
 ## lista de types="" bastante usados para links de downloads
 - application/zip
