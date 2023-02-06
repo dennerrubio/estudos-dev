@@ -13,6 +13,9 @@ repositório pessoal para estudos de programação
 - paletton.com
 - color.adobe.com
 
+## sites para importar fontes no CSS
+- fonts.google.com
+
 ## lista de types="" bastante usados para links de downloads
 - application/zip
 - application/pdf
