@@ -47,6 +47,10 @@ p {
     text-align: justify;
 }
 
+.espaco {
+    text-indent: 20px;
+}
+
 .texto-fundo {
     text-align: center;
     font-weight: bold;
