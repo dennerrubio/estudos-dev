@@ -9,22 +9,24 @@
 }
 
 body {
-    background-color: darkgrey;
+    background-image: url(imagens/background.jpg);
+    background-attachment: fixed;
 }
 
 /* CONFIGURAÇÕES DO HEADER */
 
 header {
-    background-image: linear-gradient(grey, black);
+    background-image: linear-gradient(rgb(88, 80, 80), black);
     height: 200px;
 }
 
 header > h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 900;
     text-align: center;
     color: white;
     padding-top: 30px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
 }
 
 header > p {
@@ -32,10 +34,12 @@ header > p {
     font-weight: 600;
     text-align: center;
     color: white;
+    margin-top: 10px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
 }
 
 nav {
-    margin-top: 25px;
+    margin-top: 5px;
     padding: 10px;
 }
 a {
@@ -49,9 +53,46 @@ a {
 
 main {
     background-color: white;
-    width: 80%;
-    padding: 30px;
+    width: 75%;
+    padding: 40px;
     margin: auto;
+}
+
+.textofocado {
+    font-weight: bolder;
+    color: #a00010;
+}
+
+.linkmain {
+    font-weight: bold;
+    color: #a00010;
+    margin: 0px;
+}
+
+.linkmain:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #a00010;
+}
+
+section > p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+section > h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+
+}
+
+section > h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, #a00010 , #a0001017, white);
+    text-indent: 10px;
+    color: white;
 }
 
 /* CONFIGURAÇÕES DO FOOTER */
