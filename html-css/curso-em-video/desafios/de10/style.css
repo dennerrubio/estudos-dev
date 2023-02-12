@@ -132,6 +132,40 @@ section > h3 {
     text-shadow: 2px 2px 2px #a000109a;
 }
 
+#titulotabela {
+    background-color: #a00010;
+    padding: 12px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 700;
+    text-indent: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+}
+
+#tabela {
+    background-color: #d67781;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+}
+
+#tabela > p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.listatabela1 {
+    display: inline-block;
+    padding: 20px;
+}
+
+.listatabela2 {
+    display: inline-block;
+    margin-left: 50%;
+    padding: 20px;
+}
+
 /* CONFIGURAÇÕES DO FOOTER */
 
 footer {
