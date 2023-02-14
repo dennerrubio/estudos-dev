@@ -8,6 +8,15 @@
  padding: 0px;
 }
 
+:root {
+    --cor01: #a00010; 
+    --cor02: #d67781;
+    --cor03: rgb(32, 32, 32);
+    --cor04: rgb(82, 82, 82);
+    --sombra: rgba(0, 0, 0, 0.452);
+    --degrade: #a0001017;
+}
+
 body {
     background-image: url(imagens/background.jpg);
     background-attachment: fixed;
@@ -16,8 +25,8 @@ body {
 /* CONFIGURAÇÕES DO HEADER */
 
 header {
-    background-image: linear-gradient(rgb(88, 80, 80), black);
-    height: 200px;
+    background-image: linear-gradient(var(--cor04), var(--cor03));
+    min-height: 150px;
 }
 
 header > h1 {
@@ -26,7 +35,7 @@ header > h1 {
     text-align: center;
     color: white;
     padding-top: 30px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    text-shadow: 3px 3px 3px var(--sombra);
 }
 
 header > p {
@@ -35,52 +44,65 @@ header > p {
     text-align: center;
     color: white;
     margin-top: 10px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 3px var(--sombra);
 }
 
 nav {
-    margin-top: 5px;
     padding: 10px;
+    background-color: var(--cor03);
 }
+
 a {
+    font-size: 0.9em;
     text-decoration: none;
     color: white;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: var(--cor04);
+    padding: 10px;
+    transition-duration: 0.5s;
 }
 
 /* CONFIGURAÇÕES DO MAIN */
 
-main {
+section {
     background-color: white;
-    width: 75%;
+    max-width: 1100px;
+    min-width: 300px;
     padding: 40px;
     margin: auto;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    box-shadow: 3px 3px 3px var(--sombra);
 }
 
 #videoyoutube {
-    background-color: #a00010;
-    width: 75%;
+    background-color: var(--cor01);
+    max-width: 1100px;
+    min-width: 300px;
     padding: 40px;
     margin: auto;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    box-shadow: 3px 3px 3px var(--sombra);
 }
 
 #secaofinal {
     background-color: white;
-    width: 75%;
+    max-width: 1100px;
+    min-width: 300px;
     padding: 40px;
     margin: auto;
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    box-shadow: 3px 3px 3px var(--sombra);
 }
 
 .textofocado {
     font-weight: bolder;
-    color: #a00010;
+    color: var(--cor01);
 }
 
 .imagensconfig {
@@ -101,53 +123,53 @@ main {
 
 .linkmain {
     font-weight: bold;
-    color: #a00010;
+    color: var(--cor01);
     margin: 0px;
 }
 
 .linkmain:hover {
     font-weight: bold;
     text-decoration: underline;
-    color: #a00010;
+    color: var(--cor01);
 }
 
-section > p {
+article > p {
     text-indent: 30px;
     text-align: justify;
 }
 
-section > h2 {
+article > h2 {
     font-size: 3em;
     margin-bottom: 15px;
 
 }
 
-section > h3 {
+article > h3 {
     font-size: 2em;
     margin-bottom: 15px;
     margin-top: 15px;
-    background-image: linear-gradient(to right, #a00010 , #a0001017, white);
+    background-image: linear-gradient(to right, var(--cor01) , var(--degrade), white);
     text-indent: 10px;
     color: white;
     text-shadow: 2px 2px 2px #a000109a;
 }
 
 #titulotabela {
-    background-color: #a00010;
+    background-color: var(--cor01);
     padding: 12px;
     color: white;
     border-radius: 10px 10px 0px 0px;
     font-weight: 700;
     text-indent: 10px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    box-shadow: 3px 3px 3px var(--sombra);
 }
 
 #tabela {
-    background-color: #d67781;
+    background-color: var(--cor02);
     border-radius: 0px 0px 10px 10px;
     padding: 20px;
     margin-bottom: 25px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    box-shadow: 3px 3px 3px var(--sombra);
 }
 
 #tabela > p {
@@ -155,22 +177,16 @@ section > h3 {
     margin-bottom: 15px;
 }
 
-.listatabela1 {
-    display: inline-block;
-    padding: 20px;
-}
-
-.listatabela2 {
-    display: inline-block;
-    margin-left: 50%;
-    padding: 20px;
+ol {
+    columns: 2;
+    padding-left: 20px;
 }
 
 /* CONFIGURAÇÕES DO FOOTER */
 
 footer {
-    background-color: rgb(32, 32, 32);
-    height: 60px;
+    background-color: var(--cor03);
+    min-height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;

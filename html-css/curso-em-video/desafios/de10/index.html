@@ -12,33 +12,40 @@
     <header>
         <h1>Título do Site</h1>
         <p>Lorem ipsum, dolor sit amet consectetur. <br> Dolor sit amet consectetur</p>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Notícias</a>
-            <a href="#">Curiosidades</a>
-            <a href="#">Fale Conosco</a>
-        </nav>
     </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Notícias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
     <main>
-        <section>
+    <section>
+        <article>
             <h2>A História do Lorem Ipsum</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nostrum veritatis necessitatibus soluta cupiditate delectus asperiores, dolorem unde, cum quia dolore quos sed nisi ab odit pariatur tempore illo totam. <span class = "textofocado">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Ex vitae inventore repudiandae ad qui nostrum rem aut molestias laudantium sint hic sit, eum molestiae, suscipit rerum fugiat? Facere, consequatur ullam! <span class = "textofocado">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Delectus commodi aliquam doloribus deserunt, ducimus, omnis quisquam quidem provident amet explicabo architecto quas harum distinctio recusandae ratione eos nobis et reiciendis?</p>
-        </section>
-        <section>
+        </article>
+        <article>
             <h3>A Primeira Versão</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nostrum veritatis necessitatibus soluta cupiditate delectus asperiores, dolorem unde, cum quia dolore quos sed nisi ab odit pariatur <a href="#" class="linkmain">tempore illo totam &#x1F517;</a>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vitae inventore repudiandae ad qui nostrum rem aut molestias laudantium sint hic sit, eum molestiae, suscipit rerum fugiat? <a href="#" class="linkmain">Facere, consequatur ullam! &#x1F517;</a> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi aliquam doloribus deserunt, ducimus, omnis quisquam quidem provident amet explicabo architecto quas harum distinctio recusandae ratione eos nobis et reiciendis?</p>
-                <img src="imagens/grupo-800.jpg" alt="Grupo Personagens" style="width: 55%;" class="imagensconfig">
+                <picture>
+                    <source media="(max-width: 650px)" srcset="imagens/grupo-400.jpg">
+                    <img src="imagens/grupo-800.jpg" alt="Grupo Personagens" style="width: 70%;" class="imagensconfig">
+                </picture>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias fuga suscipit tempora asperiores id at maxime deleniti cupiditate debitis provident iure, laudantium, quisquam totam autem repellendus. Nihil, enim eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="textofocado">Vel distinctio</span> quod nulla voluptatibus in molestiae autem ullam! Eos, consectetur hic eius sequi dicta beatae dolor repellendus nobis illum cupiditate accusamus?</p>
-        </section>
-        <section>
+        </article>
+        <article>
             <h3>Surge um Novo Mascote</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nostrum veritatis necessitatibus soluta cupiditate delectus asperiores, dolorem unde, cum quia dolore quos sed nisi ab odit pariatur tempore illo totam. <a href="#" class="linkmain">Lorem ipsum dolor &#x1F517; </a>sit amet consectetur adipisicing elit. Ex vitae inventore repudiandae ad qui nostrum rem aut molestias laudantium sint hic sit, eum molestiae, suscipit rerum fugiat? Facere, consequatur ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi aliquam doloribus deserunt, ducimus, omnis quisquam quidem provident amet explicabo architecto quas harum distinctio recusandae ratione eos nobis et reiciendis?</p>
-                <img src="imagens/sprite-800.jpg" alt="Grupo Personagens" style="width: 80%;" class="imagensconfig">
+                <picture>
+                    <source media="(max-width: 650px)" srcset="imagens/sprite-400.jpg">
+                    <img src="imagens/sprite-800.jpg" alt="Grupo Personagens" style="width: 80%;" class="imagensconfig">
+                </picture>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nostrum veritatis necessitatibus soluta cupiditate delectus asperiores, dolorem unde, cum quia dolore quos sed nisi ab odit pariatur tempore illo totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vitae inventore repudiandae ad qui nostrum rem aut molestias laudantium sint hic sit, eum molestiae, suscipit rerum fugiat? Facere, consequatur ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi <span class = "textofocado">aliquam doloribus deserunt</span>, ducimus, omnis quisquam quidem provident amet explicabo architecto quas harum distinctio recusandae ratione eos nobis et reiciendis?</p>
-                <img src="imagens/robo.jpg" alt="Grupo Personagens" style="width: 25%;" class="imagensconfig">
+                <img src="imagens/robo.jpg" alt="Grupo Personagens" style="max-width: 300px;" class="imagensconfig">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nostrum veritatis necessitatibus soluta cupiditate delectus asperiores, dolorem unde, cum quia dolore quos sed nisi ab odit pariatur tempore illo totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vitae inventore repudiandae ad qui nostrum rem aut molestias laudantium sint hic sit, eum molestiae, suscipit rerum fugiat? Facere, consequatur ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi aliquam doloribus deserunt, ducimus, omnis quisquam quidem provident amet explicabo architecto quas harum distinctio recusandae ratione eos nobis et reiciendis?</p>
-        </section>
-    </main>
+        </article>
+    </section>
     <div id="videoyoutube">
         <iframe src="https://www.youtube.com/embed/mPWlDqkQIeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videoconfig"></iframe>
     </div>
@@ -48,7 +55,6 @@
         </div>
         <div id="tabela">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti cum facilis asperiores nihil tenetur. Laboriosam mollitia architecto recusandae consequatur unde inventore totam porro, tenetur a atque numquam, dolorem fuga consectetur!</p>
-                <div class="listatabela1">
                     <ol>
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
@@ -57,10 +63,6 @@
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
-                    </ol>
-                </div>
-                <div class="listatabela2">
-                    <ol start="8">
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
@@ -69,12 +71,12 @@
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
                         <li><abbr title="Mensagem de Teste">Lorem Ipsum</abbr></li>
                     </ol>
-                </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti cum facilis asperiores nihil tenetur. Laboriosam mollitia architecto recusandae consequatur unde inventore totam porro, tenetur a atque numquam, dolorem fuga consectetur!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti cum facilis asperiores nihil tenetur. Laboriosam mollitia architecto recusandae consequatur unde inventore totam porro, tenetur a atque numquam, dolorem fuga consectetur!</p>
         </div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eum magni doloribus, ducimus molestiae quo ratione quas quaerat eius, quibusdam cum ipsa aliquid repudiandae asperiores iste a dolore laboriosam eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet enim accusantium sequi. Maxime, voluptate repudiandae. Consequuntur id consectetur tempore voluptates omnis soluta nam nemo laborum deleniti voluptate facere, similique quaerat.</p>
     </div>
+    </main>
     <footer>
         <p>Site criado por <strong>Denner Rubio</strong> para o segundo módulo do <strong>curso HTML/CSS</strong>, em 2023. </p>
     </footer>
