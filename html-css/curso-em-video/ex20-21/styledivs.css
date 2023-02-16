@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+div:hover {
+    color: red;
+}
+
+div > .testeclasses {
+    display: none;
+}
+
+div:hover > .testeclasses {
+    display: block;
+    background-color: red;
+    color: white;
+}
+
+header {
+    background-color: rgb(171, 221, 171);
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+
+.esq {
+    display: inline-block;
+    background-color: rgb(221, 138, 138);
+    margin-right: auto;
+    width: 35%;
+    padding: 2%;
+    height: 200px;
+}
+
+.dir {
+    display: inline-block;
+    background-color: rgb(162, 162, 221);
+    margin-left: auto;
+    width: 35%;
+    padding: 2%;
+    height: 200px;
+}
