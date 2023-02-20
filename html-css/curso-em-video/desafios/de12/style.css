@@ -31,7 +31,6 @@
 
 /* HEADER */
 header {
-    min-height: 100px;
     background-color: var(--cor01);
     color: var(--cor02);
     text-align: center;
@@ -42,11 +41,9 @@ header {
 header > h1 {
     font-size: 5vw;
     padding-top: 15px;
-    padding-bottom: 10px;
 }
 
 header > p {
-    margin-top: -20px;
     padding-bottom: 20px;
     font-size: min(max(16px, 2vw), 26px);
 }
@@ -58,19 +55,13 @@ main p {
     font-size: min(max(16px, 2vw), 24px);
 }
 
-section {
-    height: 1000px;
+section{
+    padding: 10vh 0px 10vh 30px;
 }
 
 article {
-    position: relative;
-    border-radius: 5px;
+    border-radius: 8px;
     max-width: 400px;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    top: 50%;
-    left: 5%;
-    transform: translate(0%, -50%);
 }
 
 #padding-photo1 {
