@@ -5,12 +5,20 @@ repositório pessoal para estudos de programação
 
 ## links de alguns projetos
 [Desafio 09 - Feito em 02/02/23](https://dennerrubio.github.io/estudos-dev/html-css/curso-em-video/desafios/de09/index.html)
+
 [Desafio 10 - Feito em 09/02/23](https://dennerrubio.github.io/estudos-dev/html-css/curso-em-video/desafios/de10/index.html)
+
 [Desafio 12 - Feito em 19/02/23](https://dennerrubio.github.io/estudos-dev/html-css/curso-em-video/desafios/de12/index.html)
 
+$~$
+
+$~$
 
 ---
 
+$~$
+
+$~$
 
 # anotações
 ## repositório de links interessantes:
