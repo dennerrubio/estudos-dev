@@ -10,15 +10,9 @@ repositório pessoal para estudos de programação
 
 [Desafio 12 - Feito em 19/02/23](https://dennerrubio.github.io/estudos-dev/html-css/curso-em-video/desafios/de12/index.html)
 
-$~$
-
-$~$
 
 ---
 
-$~$
-
-$~$
 
 # anotações
 ## repositório de links interessantes:
