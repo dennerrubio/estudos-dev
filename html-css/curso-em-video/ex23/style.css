@@ -12,10 +12,14 @@ table {
 td, th {
     border: 1px dotted black;
     padding: 5px 20px;
-    width: 100px;
-    height: 70px;
+    width: 70px;
+    height: 50px;
     text-align: center;
     vertical-align: top;
+}
+
+th {
+    height: 30px;
 }
 
 .primeirafileira {
