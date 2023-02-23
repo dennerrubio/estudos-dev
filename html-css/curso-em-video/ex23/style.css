@@ -9,9 +9,13 @@ table {
     border: 2px solid black;
 }
 
-td {
+td, th {
     border: 1px dotted black;
     padding: 5px 20px;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    vertical-align: top;
 }
 
 .primeirafileira {
