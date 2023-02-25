@@ -1,7 +1,31 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 iframe {
-    display: block;
-    margin: auto;
-    width: 80%;
-    height: 500px;
-    border: 1px dotted black;
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  border: 1px dotted black;
+}
+
+a {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(61, 61, 245);
+}
+
+nav {
+  margin-top: 5px;
+  margin-bottom: 30px;
 }

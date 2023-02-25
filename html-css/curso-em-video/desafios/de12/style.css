@@ -1,104 +1,103 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'newrodin';
-    src: url(fonts/newrodin_DB.otf) format('opentype');
+  font-family: "newrodin";
+  src: url(fonts/newrodin_DB.otf) format("opentype");
 }
 @font-face {
-    font-family: 'newrodin';
-    src: url(fonts/newrodin_UB.otf) format('opentype');
-    font-weight: bold;
+  font-family: "newrodin";
+  src: url(fonts/newrodin_UB.otf) format("opentype");
+  font-weight: bold;
 }
 @font-face {
-    font-family: 'newrodin';
-    src: url(fonts/newrodin_L.otf) format('opentype');
-    font-weight: 100;
+  font-family: "newrodin";
+  src: url(fonts/newrodin_L.otf) format("opentype");
+  font-weight: 100;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: newrodin, sans-serif;
-    font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  font-family: newrodin, sans-serif;
+  font-size: 16px;
 }
 
 :root {
-    --cor01: black;
-    --cor02: white;
-    --cor03: rgba(0, 0, 0, 0.6);
-    --sombra: inset 0px 0px 15px rgba(0, 0, 0, 0.9);
-    --sombraexterna: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  --cor01: black;
+  --cor02: white;
+  --cor03: rgba(0, 0, 0, 0.6);
+  --sombra: inset 0px 0px 15px rgba(0, 0, 0, 0.9);
+  --sombraexterna: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 /* HEADER */
 header {
-    background-color: var(--cor01);
-    color: var(--cor02);
-    text-align: center;
-    box-shadow: var(--sombraexterna)
-    
+  background-color: var(--cor01);
+  color: var(--cor02);
+  text-align: center;
+  box-shadow: var(--sombraexterna);
 }
 
 header > h1 {
-    font-size: 5vw;
-    padding-top: 15px;
+  font-size: 5vw;
+  padding-top: 15px;
 }
 
 header > p {
-    padding-bottom: 20px;
-    font-size: min(max(16px, 2vw), 26px);
+  padding-bottom: 20px;
+  font-size: min(max(16px, 2vw), 26px);
 }
 
 /* MAIN */
 
 main p {
-    padding: 30px;
-    font-size: min(max(16px, 2vw), 24px);
+  padding: 30px;
+  font-size: min(max(16px, 2vw), 24px);
 }
 
-section{
-    padding: 10vh 0px 10vh 30px;
+section {
+  padding: 10vh 0px 10vh 30px;
 }
 
 article {
-    border-radius: 8px;
-    max-width: 400px;
+  border-radius: 8px;
+  max-width: 400px;
 }
 
 #padding-photo1 {
-    background-color: var(--cor01);
-    background-image: url(images/wallpaper01.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: var(--sombra)
+  background-color: var(--cor01);
+  background-image: url(images/wallpaper01.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: var(--sombra);
 }
 
 #padding-photo2 {
-    background-color: var(--cor01);
-    background-image: url(images/wallpaper02.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: var(--sombra)
+  background-color: var(--cor01);
+  background-image: url(images/wallpaper02.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: var(--sombra);
 }
 
 .textimage {
-    background-color: var(--cor03);
-    color: var(--cor02);
+  background-color: var(--cor03);
+  color: var(--cor02);
 }
 /* FOOTER */
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor01);
-    min-height: 50px;
-    box-shadow: var(--sombraexterna)
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor01);
+  min-height: 50px;
+  box-shadow: var(--sombraexterna);
 }
 
 footer > p {
-    color: var(--cor02);
-    font-weight: 100;
-    font-size: 0.8em;
+  color: var(--cor02);
+  font-weight: 100;
+  font-size: 0.8em;
 }
