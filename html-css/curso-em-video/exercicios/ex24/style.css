@@ -8,7 +8,7 @@ iframe {
   display: block;
   margin: auto;
   width: 80%;
-  height: 500px;
+  height: 300px;
   border: 1px dotted black;
 }
 
@@ -25,7 +25,84 @@ a:hover {
   background-color: rgb(61, 61, 245);
 }
 
-nav {
+#superior {
   margin-top: 5px;
   margin-bottom: 30px;
+}
+
+#container {
+  background-color: yellow;
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+#objeto {
+  background-color: red;
+  width: 46%;
+}
+
+#container2 {
+  background-color: yellow;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: bottom;
+  gap: 30px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+#logo {
+  display: flex;
+ background-color: green;
+ font-size: 20px;
+ width: 200px;
+ justify-content: center;
+ align-items: center;
+}
+
+#menu {
+  background-color: green;
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#menu a {
+  height: 20px;
+  margin: 0px;
+
+}
+
+section {
+  background-color: blue;
+  display: flex;
+ justify-content: right;
+ margin-top: 25px;
+ margin-bottom: 60px;
+}
+
+#container3 {
+  background-color: yellow;
+  width: 150px;
+  gap: 30px;
+  display: flex;
+  position: relative;
+  right: 0;
+  flex-direction: column;
+
+}
+
+#container3 a {
+  height: 50px;
 }
