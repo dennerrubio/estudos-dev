@@ -61,11 +61,11 @@ a:hover {
 
 #logo {
   display: flex;
- background-color: green;
- font-size: 20px;
- width: 200px;
- justify-content: center;
- align-items: center;
+  background-color: green;
+  font-size: 20px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 #menu {
@@ -81,15 +81,14 @@ a:hover {
 #menu a {
   height: 20px;
   margin: 0px;
-
 }
 
 section {
   background-color: blue;
   display: flex;
- justify-content: right;
- margin-top: 25px;
- margin-bottom: 60px;
+  justify-content: right;
+  margin-top: 25px;
+  margin-bottom: 60px;
 }
 
 #container3 {
@@ -100,7 +99,6 @@ section {
   position: relative;
   right: 0;
   flex-direction: column;
-
 }
 
 #container3 a {
