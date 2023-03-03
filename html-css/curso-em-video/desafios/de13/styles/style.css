@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../imagens/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 3fr 70px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#celular {
+  width: 310px;
+  height: 628px;
+  background-image: url(../imagens/frame-iphone.png);
+  overflow: hidden;
+}
+
+iframe {
+  position: relative;
+  top: 81px;
+  left: 23px;
+  width: 265px;
+  height: 468px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.botao {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.botao:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.479);
+  border: 2px solid rgba(255, 255, 255, 0.568);
+  box-sizing: border-box;
+  transition: 0.2s, border 0.5s;
+}
+
+#botaohome {
+  margin-top: 20px;
+}
