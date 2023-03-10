@@ -11,23 +11,42 @@
     <form action="cadastro.php" method="post">
       <p>
         <label for="usuario">Usuário:</label>
-        <input required
-        minlength="5"
-        maxlength="15"
+        <input
+          required
+          minlength="5"
+          maxlength="15"
           type="text"
           name="usuario"
           id="usuario"
+          placeholder="Nome de Usuário"
           autocomplete="username" />
       </p>
       <p>
         <label for="senha">Senha:</label>
-        <input required
-        minlength="3"
-        maxlength="10"
+        <input
+          required
+          minlength="3"
+          maxlength="10"
           type="password"
           name="senha"
           id="senha"
+          placeholder="Insira a sua senha"
           autocomplete="current-password" />
+      </p>
+      <p>
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data" />
+      </p>
+      <p>
+        <label for="numero">Número:</label>
+        <input
+          min="0"
+          max="10"
+          size="5"
+          value="6"
+          type="number"
+          name="numero"
+          id="numero" />
       </p>
       <input type="submit" value="Logar" />
       <input type="reset" value="Resetar" />
