@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: gray;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+menu li {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: darkgray;
+    border-radius: 15px;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+main p {
+    text-indent: 25px;
+}
