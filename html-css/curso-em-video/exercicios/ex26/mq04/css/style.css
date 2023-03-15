@@ -21,6 +21,24 @@ header > h1 {
     text-align: center;
 }
 
+#menunav {
+    display: block;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding: .2em;
+}
+
+#menunav:hover {
+    background-color: white;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+
+menu {
+ display: none;
+}
 
 menu > ul > li > a {
     display: block;
