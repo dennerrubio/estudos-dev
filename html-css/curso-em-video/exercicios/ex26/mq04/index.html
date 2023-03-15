@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Menu Hamburguer</title>
 </head>
-<body>
+<body onresize="resizeMenu()">
     <header>
         <h1>Título do Site</h1>
         <span id="menunav" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
