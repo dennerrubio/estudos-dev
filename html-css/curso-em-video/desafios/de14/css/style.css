@@ -14,6 +14,7 @@
     --marrom1: #A99985;
     --marrom2: #DAD2BC;
     --azul: #70798C;
+    --azul2: #444555;
     --branco: #F5F1ED;
     --preto: #0E1116;
 }
@@ -58,4 +59,68 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: .85rem;
     font-weight: 300;
+}
+
+.campo {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+input[type=email], input[type=password]{
+    width: 225px;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: 10px;
+    border: 1px solid var(--preto);
+}
+
+input[type=email]:focus, input[type=password]:focus {
+    outline: var(--azul);
+    border: 2px solid var(--azul);
+    box-shadow: 0px 0px 7px var(--azul);
+    transition: box-shadow .2s, outline .5s;
+}
+
+label {
+    display: none;
+}
+
+input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: var(--azul);
+    border: transparent;
+    border-radius: 20px;
+    color: var(--branco);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: var(--azul2);
+}
+
+#forgot {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: var(--azul);
+    border: transparent;
+    border-radius: 20px;
+    color: var(--branco);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#forgot:hover {
+    background-color: var(--azul2);
+}
+
+.passforgot {
+    color: var(--branco);
 }
