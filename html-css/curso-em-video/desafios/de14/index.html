@@ -20,12 +20,18 @@
         <p>Seja bem-vindo(a), realize o teu login abaixo:</p>
         <form action="form.php" method="post" autocomplete="on">
           <div class="campo">
-            <span class="material-symbols-outlined"> person </span>
-            <input type="email" name="email" id="email" autocomplete="email" />
+            <span class="material-symbols-outlined simbolo"> person </span>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              autocomplete="email"
+              required
+            />
             <label for="email">E-mail</label>
           </div>
           <div class="campo">
-            <span class="material-symbols-outlined"> lock </span>
+            <span class="material-symbols-outlined simbolo"> lock </span>
             <input
               type="password"
               name="senha"
@@ -33,13 +39,16 @@
               autocomplete="current-password"
               minlength="4"
               maxlength="16"
+              required
             />
             <label for="senha">Senha</label>
           </div>
           <input type="submit" value="Entrar" />
           <a href="#" id="forgot"
             >Esqueci a minha senha
-            <span class="material-symbols-outlined passforgot">mail_lock</span></a
+            <span class="material-symbols-outlined passforgot"
+              >mail_lock</span
+            ></a
           >
         </form>
       </div>

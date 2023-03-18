@@ -1,37 +1,67 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width: 1024px) {
-    main {
-        width: 80%;
-    }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main {
+    width: 80%;
+    height: 400px;
+  }
 
-    div#imagem {
-        float: left;
-        width: 25%;
-        height: 100%;
-    }
+  div#imagem {
+    float: left;
+    width: 25%;
+    height: 100%;
+  }
 
-    div#formulario {
-        float: right;
-        width: 75%;
-        height: 100%;
-    }
+  div#formulario {
+    float: right;
+    width: 75%;
+    height: 100%;
+  }
+
+  div#formulario > h1 {
+    font-size: 2rem;
+  }
+
+  div#formulario > p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 700px;
+  }
 }
 
-@media screen and (min-width:1024px) {
-    main {
-        width: 900px;
-    }
+@media screen and (min-width: 1024px) {
+  main {
+    width: 900px;
+    height: 400px;
+  }
 
-    div#imagem {
-        float: right;
-        width: 40%;
-        height: 100%;
-    }
+  div#imagem {
+    float: right;
+    width: 40%;
+    height: 100%;
+  }
 
-    div#formulario {
-        float: left;
-        width: 60%;
-        height: 100%;
-    }
+  div#formulario {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+
+  div#formulario > h1 {
+    font-size: 2rem;
+  }
+
+  div#formulario > p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 700px;
+  }
 }

@@ -1,126 +1,135 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: var(--preto);
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: var(--preto);
+  box-sizing: border-box;
 }
 
 :root {
-    --marrom1: #A99985;
-    --marrom2: #DAD2BC;
-    --azul: #70798C;
-    --azul2: #444555;
-    --branco: #F5F1ED;
-    --preto: #0E1116;
+  --marrom1: #a99985;
+  --marrom2: #dad2bc;
+  --azul: #70798c;
+  --azul2: #444555;
+  --branco: #f5f1ed;
+  --preto: #0e1116;
 }
 
 body {
-    display: flex;
-    background-image: linear-gradient(var(--marrom2), var(--marrom1));
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  background-image: linear-gradient(var(--marrom2), var(--marrom1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
-    background-color: var(--branco);
-    width: 280px;
-    height: 500px;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
-    transition: width .4s, heigth .4s;
+  background-color: var(--branco);
+  width: 280px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+  transition: width 0.4s, heigth 0.4s;
 }
 
 div#imagem {
-    background-image: url(../images/loginimage.jpg);
-    height: 200px;
-    background-size: cover;
-    background-position: center bottom;
+  background-image: url(../images/loginimage.jpg);
+  height: 200px;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 div#formulario {
-    padding: 10px;
+  padding: 10px;
 }
 
 div#formulario > h1 {
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: var(--azul);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--azul);
 }
 
 div#formulario > p {
-    font-size: .85rem;
-    font-weight: 300;
+  font-size: 0.85rem;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 .campo {
-    margin-top: 3px;
-    margin-bottom: 3px;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
 }
 
-input[type=email], input[type=password]{
-    width: 225px;
-    height: 30px;
-    border-radius: 20px;
-    text-indent: 10px;
-    border: 1px solid var(--preto);
+.simbolo {
+  color: var(--azul);
 }
 
-input[type=email]:focus, input[type=password]:focus {
-    outline: var(--azul);
-    border: 2px solid var(--azul);
-    box-shadow: 0px 0px 7px var(--azul);
-    transition: box-shadow .2s, outline .5s;
+input[type="email"],
+input[type="password"] {
+  width: 225px;
+  height: 30px;
+  border-radius: 20px;
+  text-indent: 10px;
+  border: 1px solid var(--preto);
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: var(--azul);
+  border: 2px solid var(--azul);
+  box-shadow: 0px 0px 7px var(--azul);
+  transition: box-shadow 0.2s, outline 0.5s;
 }
 
 label {
-    display: none;
+  display: none;
 }
 
-input[type=submit] {
-    display: block;
-    width: 100%;
-    height: 35px;
-    background-color: var(--azul);
-    border: transparent;
-    border-radius: 20px;
-    color: var(--branco);
-    cursor: pointer;
-    margin-top: 10px;
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  height: 35px;
+  background-color: var(--azul);
+  border: transparent;
+  border-radius: 20px;
+  color: var(--branco);
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-input[type=submit]:hover {
-    background-color: var(--azul2);
+input[type="submit"]:hover {
+  background-color: var(--azul2);
 }
 
 #forgot {
-    display: flex;
-    width: 100%;
-    height: 35px;
-    background-color: var(--azul);
-    border: transparent;
-    border-radius: 20px;
-    color: var(--branco);
-    text-decoration: none;
-    text-align: center;
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  width: 100%;
+  height: 35px;
+  background-color: var(--azul);
+  border: transparent;
+  border-radius: 20px;
+  color: var(--branco);
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 #forgot:hover {
-    background-color: var(--azul2);
+  background-color: var(--azul2);
 }
 
 .passforgot {
-    color: var(--branco);
+  color: var(--branco);
 }
