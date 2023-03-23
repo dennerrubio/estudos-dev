@@ -1,9 +1,22 @@
-div {
-    display: flex;
-    width: 50%;
-    height: 200px;
-    background-color: red;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+div#caixa {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+div#caixasoma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+input[type="number"] {
+  width: 90px;
+  height: 20px;
 }

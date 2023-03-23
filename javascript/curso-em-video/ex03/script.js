@@ -1,7 +1,7 @@
 var corpo = window.document.body;
-var titulo = window.document.getElementById('titulo');
-var texto = window.document.getElementById('texto');
-var caixa = window.document.getElementById('caixa');
+var titulo = window.document.getElementById("titulo");
+var texto = window.document.getElementById("texto");
+var caixa = window.document.getElementById("caixa");
 caixa.addEventListener("mouseenter", mouseentrou);
 caixa.addEventListener("mouseout", mousesaiu);
 caixa.addEventListener("click", clicou);
@@ -17,19 +17,30 @@ titulo.style.fontSize = "3rem";
 titulo.innerHTML = "Isto não foi escrito no HTML";
 
 texto.style.fontSize = "1.5rem";
-texto.innerHTML = "E também não foi estilizado no CSS. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ea corporis delectus odit veniam modi est non, voluptate vitae nam sint sapiente eaque neque natus earum itaque eius facilis. Nisi dolorem rerum dolores ipsum doloribus corrupti nam tenetur, temporibus cumque adipisci alias. Ut natus blanditiis accusantium ipsa nisi quo quasi?";
+texto.innerHTML =
+  "E também não foi estilizado no CSS. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ea corporis delectus odit veniam modi est non, voluptate vitae nam sint sapiente eaque neque natus earum itaque eius facilis. Nisi dolorem rerum dolores ipsum doloribus corrupti nam tenetur, temporibus cumque adipisci alias. Ut natus blanditiis accusantium ipsa nisi quo quasi?";
 
 caixa.innerHTML = "Clique em mim.";
 
 function mouseentrou() {
-    caixa.style.backgroundColor = "blue";
+  caixa.style.backgroundColor = "blue";
 }
 
 function mousesaiu() {
-    caixa.style.backgroundColor = "green";
+  caixa.style.backgroundColor = "green";
 }
 
 function clicou() {
-    caixa.innerHTML = "Você Clicou!";
-    caixa.style.backgroundColor = "red";
+  caixa.innerHTML = "Você Clicou!";
+  caixa.style.backgroundColor = "red";
+}
+
+function somar() {
+  var n1 = window.document.getElementById("n1");
+  var n2 = window.document.getElementById("n2");
+  var res = window.document.getElementById("resultado");
+  var soma1 = Number(n1.value);
+  var soma2 = Number(n2.value);
+  var soma = soma1 + soma2;
+  res.innerHTML = soma;
 }
