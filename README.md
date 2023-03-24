@@ -20,6 +20,7 @@ repositório pessoal para estudos de programação
 ## repositório de links interessantes:
 - emojipedia.org (para pegar código de emoticons)
 - favicon.io (para transformar o png em .ico)
+- nekocalc.com/px-to-rem-converter (conversor de rem para px e vice-versa)
 
 ## softwares interessantes:
 - handbrake.fr (conversor de video gratuito)
