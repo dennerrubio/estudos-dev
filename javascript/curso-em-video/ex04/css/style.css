@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.fonte {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.resultado {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
