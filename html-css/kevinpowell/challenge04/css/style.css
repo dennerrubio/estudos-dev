@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+:root {
+    --fundo: #23424A;
+    --fundo2: #136C72;
+    --botao: #38CFD9;
+    --fonte: #072A2D;
+    --fonte2: #87629A;
+}
+
+header {
+    background-color: var(--fundo);
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+div#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 9em 0;
+}
+
+div#container_conteudo {
+    width: 60%;
+}
+
+div#container_conteudo h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: .5em;
+}
+
+div#container_conteudo p {
+    color: white;
+    margin-bottom: 4em;
+}
+
+a {
+    color: var(--fonte);
+    white-space: nowrap;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--botao);
+    padding: 1rem 3em;
+    border-radius: 100px;
+}
+
+.secao {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 7em 0;
+}
+
+.secao__titulo {
+    margin-bottom: .7em;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.secao--area1cor {
+    color: var(--fonte2);
+}
+
+.secao--area2cor {
+    color: white;
+}
+
+article {
+    text-align: center;
+    margin: 0 1em;
+}
