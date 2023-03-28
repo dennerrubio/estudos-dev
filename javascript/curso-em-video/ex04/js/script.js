@@ -9,9 +9,9 @@ function testevelocidade() {
   var velocidade = Number(velocidade.value);
   if (velocidade > 30) {
     resultado.innerHTML =
-      "Tomou multa de graça, eu mandei você ficar de olho no radar.";
+      "Tomou multa de graça, bem feito.";
   } else {
-    resultado.innerHTML = "Beleza, pode acelerar agora.";
+    resultado.innerHTML = "Não tomou multa.";
   }
 }
 
