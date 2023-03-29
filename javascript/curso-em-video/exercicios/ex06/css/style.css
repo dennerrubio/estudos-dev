@@ -9,11 +9,11 @@
     font-size: 1rem;
 }
 
-html {
-    height: 100vh;
-    background-image: linear-gradient(rgb(141, 36, 36), rgb(58, 5, 5));
+body {
+    /* background-image: linear-gradient(rgb(141, 36, 36), rgb(58, 5, 5));
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #1a1a1a;
 }
 
 .texto__titulo {
@@ -37,10 +37,17 @@ html {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.685);
 }
 
+.img__config {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+}
+
 .container {
     background-color: white;
     border-radius: 20px;
     width: 80%;
+    max-width: 1000px;
     margin: 1em auto;
     padding: 1em;
     box-shadow: 0px 0px 10px rgba(24, 24, 24, 0.397);
