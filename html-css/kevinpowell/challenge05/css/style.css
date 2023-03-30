@@ -36,6 +36,31 @@
     color: var(--fundo2);
 }
 
+.navegacao {
+    background-color: var(--fundo2);   
+}
+
+.navegacao_menu {
+    display: flex;
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1em 0;
+    column-gap: 2em;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.navegacao_link {
+    text-decoration: none;
+}
+
+.navegacao_link--sign {
+    background-color: white;
+    padding: .25em 1em;
+    border-radius: 100px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -83,7 +108,7 @@
     font-weight: 900;
 }
 
-a {
+.container_link {
     color: var(--fonte);
     white-space: nowrap;
     font-size: 1.3rem;
