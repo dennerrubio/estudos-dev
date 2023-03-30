@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaq.css">
+    <title>DE 30-03</title>
+  </head>
+  <body>
+    <main class="area">
+      <section class="container">
+        <div class="container__img">
+          <img src="img/sample.jpg" alt="imagem pessoas" class="img"/>
+        </div>
+        <div class="container__main">
+            <h1 class="text_title">Calculadora de Idade</h1>
+        <form>
+            <p>Assinale o seu gênero:</p>
+            <input type="radio" name="radio" id="male" checked><label for="male">Masculino</label>
+            <input type="radio" name="radio" id="female"><label for="female">Feminino</label>
+            <p>Digite o ano em que você nasceu:</p>
+            <input type="number" name="numero" id="numero" min="0" max="9999" value="0" required>
+            <button class="botao" onclick="calcular()">Enviar</button>
+            <p class="resultado" id="resultado"></p>
+        </form>
+    </div>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
