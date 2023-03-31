@@ -35,16 +35,18 @@
 .container__img {
   overflow: hidden;
   border-radius: 25px 0px 0px 25px;
-  width: 45%;
+  width: 100%;
 }
 
 .img {
-  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 .container__main {
     padding: 2em;
+    width: 100%;
 }
 
 .text_title {

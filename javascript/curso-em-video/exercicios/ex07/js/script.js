@@ -4,6 +4,7 @@ function calcular() {
   var anousuario = document.getElementById("numero").value;
   var sexo = document.getElementsByName("radio");
   var resultado = document.getElementById("resultado");
+  var img = document.getElementById("img");
   var genero = "";
   var idade = ano - anousuario;
 
@@ -11,22 +12,39 @@ function calcular() {
     var genero = "Masculino";
 
     if (anousuario > ano) {
-      window.alert(`${idade}, Viajante do tempo ${genero}`);
+      img.src = "img/timetravel.jpg";
     } else if (idade <= 6) {
-      
+      img.src = "img/m-baby.jpg";
     } else if (idade <= 18) {
-      window.alert(`${idade}, criança ${genero}`);
+      img.src = "img/m-kid.jpg";
     } else if (idade <= 59) {
-      window.alert(`${idade}, adulto ${genero}`);
+      img.src = "img/m-adult.jpg";
     } else if (idade <= 95) {
-      window.alert(`${idade}, velho ${genero}`);
+      img.src = "img/m-old.jpg";
     } else if (idade >= 96) {
-      window.alert(`${idade}, titã velho ${genero}`);
+      img.src = "img/skele.jpg";
     }
-
   } else if (sexo[1].checked) {
     var genero = "Feminino";
+
+    if (anousuario > ano) {
+      img.src = "img/timetravel.jpg";
+    } else if (idade <= 6) {
+      img.src = "img/f-baby.jpg";
+    } else if (idade <= 18) {
+      img.src = "img/f-kid.jpg";
+    } else if (idade <= 59) {
+      img.src = "img/f-adult.jpg";
+    } else if (idade <= 95) {
+      img.src = "img/f-old.jpg";
+    } else if (idade >= 96) {
+      img.src = "img/skele.jpg";
+    }
   }
 
-  resultado.innerHTML = `Você é um(a) ${genero} com ${idade} anos de idade.`;
+  if (anousuario > ano) {
+    resultado.innerHTML = `Você nasceu em ${anousuario}? Você por acaso é um viajante do tempo?`;
+  } else {
+    resultado.innerHTML = `Seu gênero é ${genero} e você tem ${idade} anos de idade.`;
+  }
 }
