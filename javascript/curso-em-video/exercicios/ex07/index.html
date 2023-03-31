@@ -16,13 +16,13 @@
         </div>
         <div class="container__main">
             <h1 class="text_title">Calculadora de Idade</h1>
-        <form>
+        <form onsubmit="return false">
             <p>Assinale o seu gênero:</p>
             <input type="radio" name="radio" id="male" checked><label for="male">Masculino</label>
             <input type="radio" name="radio" id="female"><label for="female">Feminino</label>
             <p>Digite o ano em que você nasceu:</p>
             <input type="number" name="numero" id="numero" min="0" max="9999" value="0" required>
-            <button class="botao" onclick="calcular()">Enviar</button>
+            <button class="botao" type="button" onclick="calcular()">Enviar</button>
             <p class="resultado" id="resultado"></p>
         </form>
     </div>
