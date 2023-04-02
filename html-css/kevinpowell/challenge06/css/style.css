@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+:root {
+  --bege: #f3eed9;
+  --marrom: #824936;
+  --verde: #222c2a;
+}
+
+/* FONTES */
+
+.fonte__leve {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  text-align: center;
+}
+
+.fonte__normal {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.313rem;
+  font-weight: 400;
+}
+
+.fonte__titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 3.75rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--marrom);
+}
+
+.fonte__subtitulo {
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+.fonte--colunas {
+  column-count: 2;
+  column-gap: 3em;
+}
+
+.fonte--corm {
+  color: var(--marrom);
+}
+
+.fonte--corb {
+  color: var(--bege);
+}
+
+.fonte--corbr {
+  color: white;
+}
+
+/* FUNDO */
+
+.fundo--vd {
+  background-color: var(--verde);
+}
+
+.fundo--mrm {
+  background-color: var(--marrom);
+}
+
+/* HEADER */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bege);
+}
+
+.hero__container {
+  max-width: 700px;
+  padding: 12em 0;
+}
+
+/* MAIN */
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5em 0;
+  gap: 3em;
+}
+
+.container--direction {
+  flex-direction: column;
+}
+
+.container--align {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img {
+    width: 100%;
+}
