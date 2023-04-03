@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+
+  .container_conteudo {
+    width: 100%;
+  }
+
+  .container_direita {
+    width: 100%;
+  }
+
+  .container_link {
+    font-size: 1rem;
+  }
+
+  .img_config {
+    margin-top: 4em;
+  }
+}
