@@ -1,9 +1,13 @@
 function calculo() {
-    var inicio = document.getElementById("inicio").value
-    var fim = document.getElementById("fim").value
-    var passos = document.getElementById("passos").value
+    var inicio = document.getElementById("inicio").valueAsNumber
+    var fim = document.getElementById("fim").valueAsNumber
+    var passos = document.getElementById("passos").valueAsNumber
     var paragrafo = document.getElementById("paragrafo")
-    paragrafo.textContent += ` inicio ${inicio} fim ${fim} passos ${passos}`
+    paragrafo.innerHTML = " "
+    for (var c = inicio; c <= fim; c += passos) {
+        paragrafo.innerHTML += ` ${c} >`
+    }
+    paragrafo.innerHTML += ` fim.`
 }
 
 /*
@@ -12,11 +16,4 @@ function calculo() {
     var texto = document.createTextNode(" texto adicional tlg")
     paragrafo.appendChild(texto)
 }
-*/
-
-/*
-var paragraph = document.getElementById("p");
-
-paragraph.textContent += "This just got added";
-<p id="p">This is some text</p>
 */
