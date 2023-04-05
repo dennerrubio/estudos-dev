@@ -4,6 +4,9 @@ function calculo() {
   var passos = document.getElementById("passos").valueAsNumber;
   var paragrafo = document.getElementById("paragrafo");
   paragrafo.innerHTML = " ";
+  if (passos <= 0) {
+    paragrafo.innerHTML = `A caixa "Passos" precisa ter um  número positivo.`;
+  } else  {
   if (inicio <= fim) {
     for (var c = inicio; c <= fim; c += passos) {
       paragrafo.innerHTML += ` ${c} &#x27A1;`;
@@ -12,6 +15,7 @@ function calculo() {
   } else {
     paragrafo.innerHTML = `Preencha as informações corretamente.`;
   }
+}
 }
 
 /*
