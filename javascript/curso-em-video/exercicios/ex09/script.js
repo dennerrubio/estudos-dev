@@ -6,9 +6,9 @@ function calculo() {
   paragrafo.innerHTML = " ";
   if (inicio <= fim) {
     for (var c = inicio; c <= fim; c += passos) {
-      paragrafo.innerHTML += ` ${c} &#9193;`;
+      paragrafo.innerHTML += ` ${c} &#x27A1;`;
     }
-    paragrafo.innerHTML += ` &#127988;`;
+    paragrafo.innerHTML += ` &#x1F3F3;`;
   } else {
     paragrafo.innerHTML = `Preencha as informações corretamente.`;
   }

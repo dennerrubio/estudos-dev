@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <label for="inicio">Inicio</label><input type="number" name="inicio" id="inicio">
-    <label for="fim">Fim</label><input type="number" name="fim" id="fim">
-    <label for="passos">Passos</label><input type="number" name="passos" id="passos">
-    <button onclick="calculo()">BOTÃO</button>
-    <p id="paragrafo">Texto</p>
+  </head>
+  <body>
+    <main class="maincontainer">
+      <div class="container">
+        <h1 class="container__titulo">Contador de Passos</h1>
+        <label for="inicio">Inicio</label
+        ><input type="number" name="inicio" id="inicio" />
+        <label for="fim">Fim</label><input type="number" name="fim" id="fim" />
+        <label for="passos">Passos</label
+        ><input type="number" name="passos" id="passos" />
+        <button onclick="calculo()">BOTÃO</button>
+      </div>
+    </main>
+    <div class="resultado">
+      <p id="paragrafo"></p>
+    </div>
+    <p id="tutorial">
+      COMO USAR O SITE: <br>
+      • INICIO: Colocar o número que vai iniciar a contagem. <br>
+      • FIM: Colocar o último número da contagem. <br>
+      • PASSOS: Colocar de quanto em quantos números vai pular entre as contagens.
+    </p>
+    <p id="footer">Criado por Denner Rubio, 04-04-2023.</p>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
