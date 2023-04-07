@@ -21,4 +21,21 @@
   .img_config {
     margin-top: 4em;
   }
+
+  .botao {
+    display: block;
+    padding-top: 1.25em;
+    padding-bottom: 1em;
+  }
+
+  .navegacao {
+    flex-direction: column;
+  }
+
+  .navegacao_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
 }

@@ -40,6 +40,12 @@
   color: var(--fundo2);
 }
 
+.botao {
+  width: 40px;
+  display: none;
+  cursor: pointer;
+}
+
 .navegacao {
   display: flex;
   justify-content: space-between;
