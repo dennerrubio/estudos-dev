@@ -8,20 +8,20 @@
     <title>08-04-23</title>
 </head>
 <body class="pag__config">
-    <main class="container">
-        <h1 class="fnt--white fnt__title">Analisador de Números</h1>
+    <h1 class="fnt--white fnt__title">Analisador de Números</h1>
+    <main class="container">        
         <div>
             <label for="numero" class="fnt--white">Adicione um número entre 1 e 100: </label><input type="number" name="numero" id="numero">
-            <input type="button" value="Adicionar">
+            <input type="button" value="Adicionar" id="adicionar" onclick="adicionar()">
         </div>
         <div>
             <select name="seletor" id="seletor" size="10"></select>
-            <input type="button" value="Finalizar">
+            <input type="button" value="Finalizar" id="finalizar" onclick="finalizar()">
         </div>
-        <section>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, possimus fuga saepe aspernatur assumenda quia. Aspernatur odit eum explicabo libero aut provident suscipit laborum minus aliquam, soluta eligendi nisi repellat reiciendis ipsam hic necessitatibus ex quia eaque perferendis laudantium. Dolor, ipsa quo aspernatur voluptatum aut accusantium sit itaque exercitationem cum culpa facilis ullam voluptates error repellat molestias quis obcaecati sapiente minus magnam eius nostrum alias consequuntur illo quod? Magni, at soluta optio rerum unde velit voluptates qui voluptas cumque, quisquam corporis pariatur reiciendis aliquam sint quam dolore, illum eveniet nesciunt veniam provident quae nam. Labore delectus obcaecati error mollitia saepe.</p>
+        <section id="resultados">
         </section>
         <p class="footer">Feito por Denner Rubio, 08-04-23</p>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>

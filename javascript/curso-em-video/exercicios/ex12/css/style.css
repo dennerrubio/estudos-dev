@@ -11,10 +11,10 @@
 
 .pag__config {
     display: flex;
-    height: 100vh;
     background-color: rgb(26, 26, 26);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .fnt--white {
@@ -24,7 +24,8 @@
 .fnt__title {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: .25em;
+    margin-top: 2em;
+    margin-bottom: .5em;
 }
 
 .container {
@@ -41,22 +42,22 @@ input[type=button] {
     border: transparent;
 }
 
-input[type=button]:hover,
-input[type=button]:focus {
+input[type=button]:hover {
     opacity: .6;
     padding: .2em 3em;
     transition: .5s;
 }
 
 input[type=number] {
+    width: 100%;
+    margin-top: .75em;
     padding: .2em 0;
     border-radius: 100px;
     text-indent: 15px;
     border: transparent;
 }
 
-input[type=number]:hover,
-input[type=number]:focus {
+input[type=number]:hover {
     opacity: .8;
     transition: .5s;
 }
@@ -70,4 +71,10 @@ select {
     font-size: .65rem;
     text-align: center;
     color: white;
+}
+
+p {
+    color: white;
+    margin: 1em 0;
+    line-height: 2em;
 }
