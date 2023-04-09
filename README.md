@@ -12,6 +12,16 @@ repositório pessoal para estudos de programação
 
 [Desafio 13 - Feito em 01/03/23](https://dennerrubio.github.io/estudos-dev/html-css/curso-em-video/desafios/de13/index.html)
 
+[Desafio 14 - Feito em 16/03/23](https://dennerrubio.github.io/estudos-dev/html-css/curso-em-video/desafios/de14/index.html)
+
+[Javascript EX06 - Feito em 28/03/023](https://dennerrubio.github.io/estudos-dev/javascript/curso-em-video/exercicios/ex06/index.html)
+
+[Javascript EX07 - Feito em 30/03/023](https://dennerrubio.github.io/estudos-dev/javascript/curso-em-video/exercicios/ex07/index.html)
+
+[Javascript EX09 - Feito em 04/04/023](https://dennerrubio.github.io/estudos-dev/javascript/curso-em-video/exercicios/ex09/index.html)
+
+[Javascript EX12 - Feito em 08/04/023](https://dennerrubio.github.io/estudos-dev/javascript/curso-em-video/exercicios/ex12/index.html)
+
 
 ---
 
