@@ -14,7 +14,6 @@ function adicionar() {
     dados.push(numero);
     opcao.innerHTML = `O número ${numero} foi adicionado.`;
     seletor.appendChild(opcao);
-    window.alert(dados);
   }
 }
 
@@ -23,7 +22,16 @@ function finalizar() {
     window.alert("Adicione dados antes de finalizar.");
   } else {
     var texto = document.createElement("p");
-    texto.innerHTML = "teste de texto <br> teste de texto <br> teste de texto <br> teste de texto";
+    var soma = 0;
+    for (var i = 0; i < dados.length; i++) {
+      soma += Number(dados[i]);
+    }
+    var media = soma / dados.length
+    texto.innerHTML = `Ao todo temos ${dados.length} números cadastrados. <br>
+    O maior número foi ${Math.max(...dados)}. <br>
+    O menor número foi ${Math.min(...dados)}. <br> 
+    A soma de todos os números é igual a ${soma} <br>
+    A média de todos os números é igual a ${media}`;
     resultados.appendChild(texto);
     seletor.innerHTML = " ";
     dados.length = 0;
