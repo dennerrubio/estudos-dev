@@ -9,7 +9,7 @@
   </head>
   <body>
     <main>
-      <img src="assets/logo.png" alt="calculadora de imc" id="logo">
+      <img src="assets/logo.png" alt="calculadora de imc" id="logo" />
       <table>
         <tr>
           <th>IMC</th>
@@ -40,14 +40,21 @@
           <td class="resultado resultado--res6">Obesidade grau 3</td>
         </tr>
       </table>
-      <label for="peso">Peso:</label>
-      <input type="number" name="peso" id="peso" />
-      <label for="altura">Altura:</label>
-      <input type="number" name="altura" id="altura" />
-      <input type="button" value="Calcular" id="botao" />
+      <label for="peso">Peso (em kilos):</label>
+      <input type="number" name="peso" id="peso" placeholder="0kg" />
+      <label for="altura">Altura (em metros):</label>
+      <input
+        type="number"
+        name="altura"
+        id="altura"
+        step="0.01"
+        placeholder="0.00m" />
+      <input type="button" value="Calcular" id="botao" onclick="calcular()" />
+      <span id="caixa"></span>
     </main>
     <footer>
       <p id="fundo">Criado por Denner Rubio, 18-04-23</p>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
