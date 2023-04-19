@@ -22,7 +22,7 @@ repositório pessoal para estudos de programação
 
 [Javascript EX12 - Feito em 08/04/023](https://dennerrubio.github.io/estudos-dev/javascript/curso-em-video/exercicios/ex12/index.html)
 
-[Javascript S3 EX08 - Feito em 18/04/023](https://dennerrubio.github.io/estudos-dev/javascript/luiz-otavio-js/s3ex08/index.html)
+[Javascript S3 EX08 - Feito em 18/04/023](https://dennerrubio.github.io/estudos-dev/javascript/luiz-otavio-js/s3ex08v2/index.html)
 
 
 ---
