@@ -8,15 +8,18 @@ let horas = 0;
 let temporizador;
 
 iniciar.addEventListener("click", function (e) {
+  timer.style.color = "black";
   clearInterval(temporizador);
   startTimer();
 });
 
 pausar.addEventListener("click", function (e) {
+  timer.style.color = "red";
   clearInterval(temporizador);
 });
 
 resetar.addEventListener("click", function (e) {
+  timer.style.color = "black";
   clearInterval(temporizador);
   segundos = 0;
   minutos = 0;
