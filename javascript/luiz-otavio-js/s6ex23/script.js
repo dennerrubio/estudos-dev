@@ -2,7 +2,7 @@ function Dados(nome, sobrenome, idade, id) {
   this.nome = nome;
   this.sobrenome = sobrenome;
   this.idade = idade;
-  this.idNum = id;
+  let idNum = id;
 
   Object.defineProperty(this, "id", {
     enumerable: true,
@@ -22,5 +22,5 @@ function Dados(nome, sobrenome, idade, id) {
 
 const pessoa1 = new Dados("Denner", "Rubio", "26", 7);
 const pessoa2 = new Dados("César", "Rubio", "6", "13");
-pessoa1.id = "4";
+pessoa1.id = "45";
 console.log(pessoa1.id);
