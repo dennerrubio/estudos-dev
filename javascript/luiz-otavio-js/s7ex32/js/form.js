@@ -13,7 +13,9 @@ class Formulario {
   handleSubmit(e) {
     e.preventDefault();
     this.isInfoValid();
-    console.log(validar);
+    if (this.validar === true) {
+      alert("Formulário enviado.");
+    }
   }
 
   isInfoValid() {
@@ -49,8 +51,11 @@ class Formulario {
   validarCPF() {
     const cpf = document.querySelector("#inputcpf");
     const cpf1 = new CPF(cpf.value);
-    if (cpf1.resultado === true) {
-      this.createError(`eita.`, ".divcpf");
+    if (cpf1.resultado === false) {
+      this.createError(
+        `O campo "CPF" está em branco ou é inválido.`,
+        ".divcpf"
+      );
       this.validar = false;
     }
   }

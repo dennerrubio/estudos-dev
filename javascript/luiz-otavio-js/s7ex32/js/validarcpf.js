@@ -10,7 +10,7 @@ class CPF {
   validarCPF() {
     this.limparCPF();
     if (this.cpfLimpo.length > 11 || this.cpfLimpo.length < 11) {
-      return console.log("CPF Inválido");
+      return (this.resultado = false);
     }
     this.calculo(0);
     this.calculo(1);
@@ -40,7 +40,7 @@ class CPF {
     if (somaArray === this.cpfLimpo) {
       return (this.resultado = true);
     } else {
-      return console.log("Este CPF não existe.");
+      return (this.resultado = false);
     }
   }
 }
