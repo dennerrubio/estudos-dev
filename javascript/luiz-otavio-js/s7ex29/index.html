@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Formulário</h1>
+      <ul>
+        <li>Nenhum campo pode estar vazio.</li>
+        <li>Usuário só pode contar letras e/ou números.</li>
+        <li>Usuário deverá conter entre 3 e 12 caracteres.</li>
+        <li>Senha precisa ter entre 6 e 12 caracteres.</li>
+      </ul>
+      <form action="/" method="post" class="formulario">
+        <label for="inputnome">Nome:</label>
+        <input type="text" name="inputnome" id="inputnome" />
+        <label for="inputsobrenome">Sobrenome:</label>
+        <input type="text" name="inputsobrenome" id="inputsobrenome" />
+        <label for="inputcpf">CPF:</label>
+        <input type="text" name="inputcpf" id="inputcpf" />
+        <label for="inputusuario">Usuário:</label>
+        <input type="text" name="inputusuario" id="inputusuario" />
+        <label for="inputsenha">Senha:</label>
+        <input type="password" name="inputsenha" id="inputsenha" />
+        <label for="inputsenha-valid">Confirmar Senha:</label>
+        <input type="password" name="inputsenha-valid" id="inputsenha-valid" />
+        <button type="submit" id="enviar">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
