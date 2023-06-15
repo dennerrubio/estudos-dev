@@ -72,3 +72,9 @@ input[type="button"]:hover {
 input[type="button"]:active {
   background-color: #283857;
 }
+
+.cpfvalores {
+  color: #4267b2;
+  font-size: 2rem;
+  text-align: center;
+}

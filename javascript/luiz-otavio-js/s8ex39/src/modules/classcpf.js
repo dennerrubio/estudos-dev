@@ -1,10 +1,4 @@
-export default class CPF {
-  constructor(cpfInicial) {
-    this.cpfInicial = cpfInicial;
-    this.cpfLimpo = "";
-    this.cpfArray = "";
-    this.validarCPF();
-  }
+export class CPFcreate {
 
   validarCPF() {
     this.limparCPF();
@@ -18,16 +12,17 @@ export default class CPF {
     this.cpfArray = Array.from(this.cpfLimpo);
   }
 
-  calculo(value) {
+  calculo(value, cpfvalue) {
+    this.cpfArray = Array.from(cpfvalue);
     let calc = 0;
     for (let i = 0; i < 9 + value; i++) {
       calc += this.cpfArray[i] * (10 + value - i);
     }
     const digito = 11 - (calc % 11);
     if (digito > 9) {
-      this.cpfArray.push("0");
+      return "0";
     } else {
-      this.cpfArray.push(String(digito));
+      return digito;
     }
   }
 
