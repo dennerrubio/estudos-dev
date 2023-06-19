@@ -1,3 +1,7 @@
 const mod = require("./module");
+const Felino = require("./mod/classe");
 
-console.log(mod.falaNome(mod.nome, mod.sobrenome));
+console.log(mod.falanome());
+
+const g1 = new Felino("Alfredo", "Frajola");
+console.log(g1.miar())
