@@ -1,14 +1,10 @@
 const express = require("express");
 const app = express();
-
-app.get("/", (req, res) => {
-  res.send("Olá mundo! Hello world!");
-});
-
-app.get("/contato/:iduser?", (req, res) => {
-  res.send(req.params.iduser);
-  console.log(req.params);
-});
+const route = require("./routes");
+const path = require("path")
+app.use(route);
+app.set("views", path.resolve(__dirname,"src","views"));
+app.set("view engine", "ejs");
 
 app.listen(3000, () => {
   console.log("Servidor funcionando.");
